@@ -1,3 +1,6 @@
-Used 
-1) WorkSans v2 fonts
-2) Google Material Icon Fonts
+**Used**
+
+ 1. Google Material icons font  
+ 2. Work Sans fonts
+
+
