@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <link href='fonts.css' rel='stylesheet' type='text/css'>
+        <link href='iconfonts.css' rel='stylesheet' type='text/css'>
+        <style>
+
+            .app-body { display: flex;	flex-flow: row wrap;align-items:stretch; width:100%;height:100%}
+            .appsidebar {flex: none;background: #2C3E50;order: 1; width:0; font-size:13px;position: relative; overflow: hidden;color:#FFFFFF}
+            
+            .wrapper{	 flex: 1 auto;order:2;display: flex;	flex-flow: column wrap;}
+
+            .header  {	flex: none;background-color: #FFFFFF;	z-index:2; color:#E74C3C; order: 1; height:40px; font-size:13px;font-weight:500;line-height:40px;position:relative;text-align:left; box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px}
+            .center    { flex: 1 auto;	order: 3;font-size:13px; display:flex}
+            .footer  {	flex: none;border-top: 0px solid #EFF0F1	;order: 4;height:25px ; font-size:12px;line-height:25px;text-align:center}
+            
+            .sidebar {	flex: none;border-right: 1px solid #EFF0F1	;order: 1; width:200px; font-size:13px;position: relative}
+            .main    { flex: 1 auto;border-right: 0px solid #EFF0F1	;	order: 2;font-size:13px;}  
+            .propbar {	flex: none;;order: 3; width:150px; font-size:13px;position: relative}         
+            
+            
+            body { margin: 0 ; font-family: 'Work Sans', sans-serif;color:#646a6b; }
+        </style>
+            
+    </head>
+    <body>     
+        
+        <div class='app-body'>
+            <div class="appsidebar" id='fw-app-sidebar-id'>AppSidebar</div> 
+            <div class="wrapper">
+                <header class="header" id='fw-header-id'>Header</header>
+                <div class='center' id='fw-center-id'>
+                    <div class="sidebar" id='fw-sidebar-id'>
+                        Sidebar
+                    </div>           
+                    <div class="main" id='fw-main-id'>Main</div>
+                    <div class="propbar" id='fw-propbar-id'>
+                        Propbar
+                    </div>  
+                </div>
+
+            </div>   
+        
+        </div>    
+    </body>
+</html>
+
